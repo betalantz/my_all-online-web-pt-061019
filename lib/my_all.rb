@@ -1,7 +1,6 @@
 require 'pry'
 
 def my_all?(collection)
-  all_truthy = true
   i = 0
   while i < collection.length
     if !yield(collection[i])
